@@ -25,9 +25,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/css/styles.css",
+              "src/css/estilo.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/js/bootstrap.bundle.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -87,12 +90,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/css/styles.css",
+              "src/css/estilo.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/js/bootstrap.bundle.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "93908e5f-8073-4aeb-a2ed-ab2887ca1a84"
   }
 }

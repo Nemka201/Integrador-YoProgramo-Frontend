@@ -1,0 +1,39 @@
+.header {
+  background-color: blueviolet;
+  display:flex;
+  position:sticky;
+  height: 100px;
+  flex-wrap: wrap;
+  line-height: 100px;
+  justify-content: space-between;
+}
+.logo-ap {
+  vertical-align: middle;
+  text-align: center;
+  line-height: 100px;
+  height: 100px;
+  padding:0;
+}
+.social {
+  text-align: end;
+  line-height: 100px;
+  height: 100px;
+  margin: auto;
+  padding:0;
+}
+@media (max-width: 768px) {
+  .logo-ap, .social {
+    height: 100px;
+  }
+  .logo-ap{
+    height: 0;
+  }
+}
+@media (min-width: 1320px) {
+  .social{
+    margin-left: 60%;
+    height: 100px;
+  }
+}
+
+
