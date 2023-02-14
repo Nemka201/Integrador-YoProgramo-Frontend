@@ -8,6 +8,11 @@ import { LogoAPComponent } from './components/logo-ap/logo-ap.component';
 import { FormsModule } from '@angular/forms';
 import { SocialComponent } from './components/social/social.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { LoginComponent } from './components/login/login.component';
+import { AcercaComponent } from './components/acerca/acerca.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { HabilidadesComponent } from './components/habilidades/habilidades.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +20,12 @@ import { BannerComponent } from './components/banner/banner.component';
     HeaderComponent,
     LogoAPComponent,
     SocialComponent,
-    BannerComponent
+    BannerComponent,
+    LoginComponent,
+    AcercaComponent,
+    EducacionComponent,
+    ProyectosComponent,
+    HabilidadesComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,12 @@
+root{
+  --ap-blue: #00358e;
+}
+
 .header {
+  background-color: #00358e;
+  position: sticky;
+}
+/* .header {
   background-color: blueviolet;
   display:flex;
   position:sticky;
@@ -34,6 +42,6 @@
     margin-left: 60%;
     height: 100px;
   }
-}
+} */
 
 

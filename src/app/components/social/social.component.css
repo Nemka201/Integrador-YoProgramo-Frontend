@@ -1,25 +1,61 @@
 .social{
-  min-width: 400px;
+  width: 500px;
   margin-top:15px;
+  display:-webkit-inline-flex;
 }
 #facebook{
-width:65px;
+width:60px;
+transition: all 0.5s ease;
 margin-left:2%;
+box-shadow: 0;
+  -webkit-box-shadow: inset 100 100 6px rgb(255 255 255 / 10%);
 }
 #instagram{
-width:65px;
+width:60px;
+transition: all 0.5s ease;
 margin-left:2%;
+box-shadow: 0;
+  -webkit-box-shadow: inset 100 100 6px rgb(255 255 255 / 10%);
 }
 #linkedin{
-width:65px;
+width:60px;
+transition: all 0.5s ease;
 margin-left:2%;
+box-shadow: 0;
+  -webkit-box-shadow: inset 100 100 6px rgb(255 255 255 / 10%);
 }
 #github{
-width:65px;
+width:60px;
+transition: all 0.5s ease;
 margin-left:2%;
+box-shadow: 0;
+  -webkit-box-shadow: inset 100 100 6px rgb(255 255 255 / 10%);
 }
 #twitter{
-  width:65px;
+  width:60px;
+  transition: all 0.5s ease;
   margin-left:2%;
+  box-shadow: 0;
+  -webkit-box-shadow: inset 100 100 6px rgb(255 255 255 / 10%);
+}
+#facebook:hover{
+  width: 65px;
+  transition: all 0.5s ease;
+}
+#instagram:hover{
+  width: 65px;
+  transition: all 0.5s ease;
+}
+#github:hover{
+  width: 65px;
+  transition: all 0.5s ease;
+}
+#twitter:hover{
+  width: 65px;
+  transition: all 0.5s ease;
+}
+#linkedin:hover{
+  width: 65px;
+  transition: all 0.5s ease;
 }
 

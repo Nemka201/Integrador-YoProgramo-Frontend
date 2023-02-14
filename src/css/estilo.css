@@ -2,13 +2,12 @@
     font-family: 'Gemunu Libre', sans-serif;
     color:white;
 }
-    
+
 .bg.dark{
     background-color: rgba(1, 7, 13, 0.711);
 }
 body{
-    background: rgb(141,45,127);
-    background: radial-gradient(circle, rgba(141,45,127,1) 0%, rgba(0,0,0,1) 100%);
+    background: #eef5f9;
 }
 h1{
     font-size: 4em;

@@ -1,0 +1,21 @@
+.login {
+  display: flex;
+}
+.btn-ap{
+  color: #00358e;
+  background-color:#e6e6e6;
+  height: 60px;
+  width: 125px;
+  margin-left: 1.8em;
+  border-radius: 20px;
+  font-size: large;
+  transition: all 0.5s ease;
+}
+.btn-ap:hover{
+  background-color:#00358e;
+  color:#e6e6e6;
+  width: 130px;
+  height: 65px;
+  transition: all 0.5s ease;
+}
+
