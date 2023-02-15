@@ -1,5 +1,5 @@
 .social{
-  width: 500px;
+  width: 10%;
   margin-top:15px;
   display:-webkit-inline-flex;
   margin-left: -15%;
@@ -9,35 +9,30 @@ width:60px;
 transition: all 0.5s ease;
 margin-left:2%;
 box-shadow: 0;
-  -webkit-box-shadow: inset 100 100 6px rgb(255 255 255 / 10%);
 }
 #instagram{
 width:60px;
 transition: all 0.5s ease;
 margin-left:2%;
 box-shadow: 0;
-  -webkit-box-shadow: inset 100 100 6px rgb(255 255 255 / 10%);
 }
 #linkedin{
 width:60px;
 transition: all 0.5s ease;
 margin-left:2%;
 box-shadow: 0;
-  -webkit-box-shadow: inset 100 100 6px rgb(255 255 255 / 10%);
 }
 #github{
 width:60px;
 transition: all 0.5s ease;
 margin-left:2%;
 box-shadow: 0;
-  -webkit-box-shadow: inset 100 100 6px rgb(255 255 255 / 10%);
 }
 #twitter{
   width:60px;
   transition: all 0.5s ease;
   margin-left:2%;
   box-shadow: 0;
-  -webkit-box-shadow: inset 100 100 6px rgb(255 255 255 / 10%);
 }
 #facebook:hover{
   width: 65px;
