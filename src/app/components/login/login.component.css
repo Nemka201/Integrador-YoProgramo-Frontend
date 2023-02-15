@@ -12,10 +12,12 @@
   transition: all 0.5s ease;
 }
 .btn-ap:hover{
+  position: initial;
   background-color:#00358e;
   color:#e6e6e6;
   width: 130px;
-  height: 65px;
+  height: 60px;
   transition: all 0.5s ease;
+  margin-left: 1em;
 }
 
