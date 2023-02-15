@@ -1,0 +1,17 @@
+.banner {
+  height: 400px;
+  background: url(../../../assets/2346350.jpg) no-repeat center center;
+  perspective: 1000px;
+  animation: move-banner 1s linear;
+}
+@keyframes move-banner {
+  0% {
+    transform: rotateY(0deg);
+    transform: rotateX(45deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+    transform:rotateX(0deg);
+
+  }
+}

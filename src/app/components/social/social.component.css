@@ -2,6 +2,7 @@
   width: 500px;
   margin-top:15px;
   display:-webkit-inline-flex;
+  margin-left: -15%;
 }
 #facebook{
 width:60px;
