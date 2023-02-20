@@ -15,6 +15,7 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { HabilidadesComponent } from './components/habilidades/habilidades.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { HttpClient, HttpClientModule} from '@angular/common/http'
 
 
 @NgModule({
@@ -35,6 +36,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    HttpClientModule,
     NgCircleProgressModule.forRoot({
       // set defaults here
       "radius": 60,
@@ -58,6 +60,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     })
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+
 })
 export class AppModule { }
