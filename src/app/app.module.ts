@@ -15,7 +15,8 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { HabilidadesComponent } from './components/habilidades/habilidades.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
-import { HttpClient, HttpClientModule} from '@angular/common/http'
+import { HttpClient, HttpClientModule} from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component'
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { HttpClient, HttpClientModule} from '@angular/common/http'
     EducacionComponent,
     ProyectosComponent,
     HabilidadesComponent,
-    ExperienciaComponent
+    ExperienciaComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
