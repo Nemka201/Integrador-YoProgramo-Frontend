@@ -39,7 +39,7 @@ export class TokenService {
     }
     return this.roles;
   }
-  public logout():void{
+  public Logout():void{
     window.sessionStorage.clear();
   }
 }

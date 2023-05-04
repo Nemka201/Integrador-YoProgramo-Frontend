@@ -17,6 +17,7 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HttpClient, HttpClientModule} from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component'
+import { interceptorProvider } from './service/interceptor-service';
 
 
 @NgModule({
@@ -61,7 +62,9 @@ import { HomeComponent } from './components/home/home.component'
       "lazy": true
     })
   ],
-  providers: [],
+  providers: [
+    interceptorProvider
+  ],
   bootstrap: [AppComponent],
 
 })

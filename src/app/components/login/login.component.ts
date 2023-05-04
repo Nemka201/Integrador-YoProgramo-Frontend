@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component , OnInit} from '@angular/core';
 import { LoginUsuario } from 'src/app/models/login-usuario';
 import { TokenService } from '../../service/token.service';
 import { AuthService } from '../../service/auth.service';
@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
-export class LoginComponent{
+export class LoginComponent implements OnInit{
   isLogged = false;
   isLogginFail = false;
   loginUsuario!: LoginUsuario;
