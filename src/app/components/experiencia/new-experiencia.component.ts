@@ -2,8 +2,6 @@ import { Component, OnInit} from '@angular/core';
 import { SExperienciaService } from '../../service/experiencia.service';
 import { Router } from '@angular/router';
 import { Experiencia } from 'src/app/models/experiencia';
-import { FormsModule } from '@angular/forms';
-
 
 @Component({
   selector: 'app-new-experiencia',

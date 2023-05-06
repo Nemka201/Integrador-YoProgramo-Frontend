@@ -22,3 +22,9 @@ h4{
   max-width: 100px;
   align-self: center;
 }
+.modifyExp{
+  position: absolute;
+  margin-left: 48%;
+  font-size: 1.5rem;
+  cursor: pointer;
+}

@@ -17,7 +17,15 @@ export class ExperienciaComponent implements OnInit {
     this.isLogged = this.tokenService.getToken() ? true : false;
   }
 
-cargarExperiencia() :void{
-  this.SExperienciaService.lista().subscribe(data => {this.experiencia = data;})
-}
+  cargarExperiencia() :void{
+    this.SExperienciaService.lista().subscribe(data => {this.experiencia = data;})
+  }
+  delete (id?:number):void{
+    if (id != undefined){
+      this.SExperienciaService.delete(id).subscribe(
+        data => {this.cargarExperiencia();},
+        err => {alert("No se pudo eliminar la experiencia");}
+      )
+    }
+  }
 }

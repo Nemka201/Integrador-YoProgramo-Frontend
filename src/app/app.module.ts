@@ -20,6 +20,8 @@ import { HomeComponent } from './components/home/home.component'
 import { interceptorProvider } from './service/interceptor-service';
 import { NewExperienciaComponent } from './components/experiencia/new-experiencia.component';
 import { bootstrapApplication } from '@angular/platform-browser';
+import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
+
 
 
 @NgModule({
@@ -36,7 +38,8 @@ import { bootstrapApplication } from '@angular/platform-browser';
     HabilidadesComponent,
     ExperienciaComponent,
     HomeComponent,
-    NewExperienciaComponent
+    NewExperienciaComponent,
+    EditExperienciaComponent
   ],
   imports: [
     BrowserModule,
