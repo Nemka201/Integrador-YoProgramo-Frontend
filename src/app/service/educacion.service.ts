@@ -4,6 +4,8 @@ import { Observable } from 'rxjs';
 //import { environment } from 'src/environments/environment';
 import { Educacion } from '../models/educacion';
 
+// Servicio de educación
+
 @Injectable({
   providedIn: 'root'
 })

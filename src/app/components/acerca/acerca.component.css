@@ -9,7 +9,10 @@ h1{
   font-size: 5em;
 }
 h3 {
-    color:#455a64;
+  font-size:2.5em;
+  font-family: 'Zeyada', cursive;
+  /* color:#455a64; */
+  color:#00358e;
 }
 
 .profile {
@@ -21,6 +24,9 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-color: #f8f9fa;
+  border-style: solid;
+  border-width:2px;
 }
 .text {
   padding-top:2.5%;
@@ -38,4 +44,12 @@ h3 {
 .profile img {
   width: 100%;
   height: auto;
+}
+.descripcion{
+  border-width: 0px;
+  border-radius:0px;
+  border: #00358e;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  border-style: none;
 }

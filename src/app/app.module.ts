@@ -23,6 +23,9 @@ import { bootstrapApplication } from '@angular/platform-browser';
 import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
 import { NewEducacionComponent } from './components/educacion/new-educacion.component';
 import { EditEducacionComponent } from './components/educacion/edit-educacion.component';
+import { EditHabilidadesComponent } from './components/habilidades/edit-habilidades.component';
+import { NewHabilidadesComponent } from './components/habilidades/new-habilidades.component';
+import { EditAcercaComponent } from './components/acerca/edit-acerca/edit-acerca.component';
 
 
 
@@ -43,7 +46,10 @@ import { EditEducacionComponent } from './components/educacion/edit-educacion.co
     NewExperienciaComponent,
     EditExperienciaComponent,
     NewEducacionComponent,
-    EditEducacionComponent
+    EditEducacionComponent,
+    EditHabilidadesComponent,
+    NewHabilidadesComponent,
+    EditAcercaComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { persona } from 'src/app/models/persona.model';
 import { PersonaService } from 'src/app/service/persona.service';
+import { TokenService } from 'src/app/service/token.service';
 
 @Component({
   selector: 'app-acerca',
@@ -8,9 +9,18 @@ import { PersonaService } from 'src/app/service/persona.service';
   styleUrls: ['./acerca.component.css']
 })
 export class AcercaComponent implements OnInit{
+  isLogged: boolean = false;
   persona:persona = new persona("","","");
-  constructor(public personaService: PersonaService) {
-    this.personaService.getPersona().subscribe(data => {this.persona = data})
+  constructor(public personaService: PersonaService, private tokenService: TokenService){}
+  ngOnInit(): void{
+    this.cargarPersona();
+    this.isLogged = this.tokenService.getToken() ? true : false;
+
   }
-  ngOnInit(): void{}
+  cargarPersona(){
+    this.personaService.detail(1).subscribe(data =>
+      {
+        this.persona = data;
+      })
+  }
 }

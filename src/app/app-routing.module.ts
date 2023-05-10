@@ -6,6 +6,8 @@ import { NewExperienciaComponent } from './components/experiencia/new-experienci
 import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
 import { NewEducacionComponent } from './components/educacion/new-educacion.component';
 import { EditEducacionComponent } from './components/educacion/edit-educacion.component';
+import { NewHabilidadesComponent } from './components/habilidades/new-habilidades.component';
+import { EditHabilidadesComponent } from './components/habilidades/edit-habilidades.component';
 
 const routes: Routes = [
   // Routes
@@ -16,7 +18,12 @@ const routes: Routes = [
   {path:'editexperiencia/:id', component: EditExperienciaComponent},
   // Educacion routes
   {path:'nuevaeducacion', component: NewEducacionComponent},
-  {path:'editeducacion/:id', component: EditEducacionComponent}
+  {path:'editeducacion/:id', component: EditEducacionComponent},
+  // Habilidaes routes
+  {path:'newskill', component: NewHabilidadesComponent},
+  {path:'editskill/:id', component: EditHabilidadesComponent},
+  // Perfil routes
+  {path:'editacerca',component: EditEducacionComponent}
 ];
 
 @NgModule({
