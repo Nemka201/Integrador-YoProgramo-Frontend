@@ -19,6 +19,9 @@ export class PersonaService {
   public detail(id: number): Observable<persona> {
     return this.httpClient.get<persona>(this.URL + `detail/${id}`);
   }
+  public traer(id: number): Observable<persona> {
+    return this.httpClient.get<persona>(this.URL + `personas/traer/perfil`);
+  }
 
   /*public save(persona: persona): Observable<any> {
     return this.httpClient.post<any>(this.URL + 'create', persona);

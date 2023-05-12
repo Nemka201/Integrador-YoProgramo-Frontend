@@ -26,6 +26,8 @@ import { EditEducacionComponent } from './components/educacion/edit-educacion.co
 import { EditHabilidadesComponent } from './components/habilidades/edit-habilidades.component';
 import { NewHabilidadesComponent } from './components/habilidades/new-habilidades.component';
 import { EditAcercaComponent } from './components/acerca/edit-acerca.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { provideStorage,getStorage } from '@angular/fire/storage';
 
 
 

@@ -9,10 +9,10 @@ import { Skill } from '../models/skill';
 })
 export class SkillService {
 
-  URL = 'http://localhost:8080/skill/';
+  //URL = 'http://localhost:8080/skill/';
 
 
-  //URL = environment.URL + 'skill/';
+  URL = 'https://backendnemka201.onrender.com/' + 'skill/';
 
   constructor(private httpClient: HttpClient) { }
 

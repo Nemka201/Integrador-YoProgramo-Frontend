@@ -11,7 +11,7 @@ import { Proyecto } from '../models/proyecto';
 })
 export class SProyectoService {
 
-  URL = 'https://bhttps://backendnemka201.onrender.com/proyecto';
+  URL = 'https://backendnemka201.onrender.com/proyecto';
 
 
   //URL = environment.URL + 'proyecto/';

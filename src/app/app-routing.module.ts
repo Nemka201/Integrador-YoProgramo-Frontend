@@ -23,7 +23,8 @@ const routes: Routes = [
   {path:'newskill', component: NewHabilidadesComponent},
   {path:'editskill/:id', component: EditHabilidadesComponent},
   // Perfil routes
-  //{path:'editacerca',component: EditEducacionComponent}
+  //{path:'editacerca/:id',component: EditEducacionComponent}
+
 ];
 
 @NgModule({
