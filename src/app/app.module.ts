@@ -28,6 +28,7 @@ import { NewHabilidadesComponent } from './components/habilidades/new-habilidade
 import { EditAcercaComponent } from './components/acerca/edit-acerca.component';
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { provideStorage,getStorage } from '@angular/fire/storage';
+import { environment } from 'src/environments/environment';
 
 
 
@@ -78,7 +79,9 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
       "clockwise": false,
       "startFromZero": false,
       "lazy": true
-    })
+    }),
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideStorage(() => getStorage())
   ],
   providers: [
     interceptorProvider

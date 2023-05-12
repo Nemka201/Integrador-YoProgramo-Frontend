@@ -7,11 +7,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
 </head>
-<div class="">
-  <div class="container-fluid">
+<div class="header">
+  <div class="container col-12">
     <div class="row">
       <div class="col-12 text-center d-flex flex-column " style="background-color: #00358e;">
-        <button class="btn-primary persona-edit" routerLink="/editacercade/1" *ngIf="isLogged">Modificar</button>
+       <button class="btn-primary col-1 align-self-center persona-edit" routerLink="/editacerca/1" *ngIf="isLogged">Modificar</button>
         <br>
         <div class="profile align-self-baseline">
           <img src="{{persona.img}}" alt="Foto de perfil">

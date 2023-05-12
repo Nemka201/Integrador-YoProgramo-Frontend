@@ -8,6 +8,7 @@ import { NewEducacionComponent } from './components/educacion/new-educacion.comp
 import { EditEducacionComponent } from './components/educacion/edit-educacion.component';
 import { NewHabilidadesComponent } from './components/habilidades/new-habilidades.component';
 import { EditHabilidadesComponent } from './components/habilidades/edit-habilidades.component';
+import { EditAcercaComponent } from './components/acerca/edit-acerca.component';
 
 const routes: Routes = [
   // Routes
@@ -23,7 +24,7 @@ const routes: Routes = [
   {path:'newskill', component: NewHabilidadesComponent},
   {path:'editskill/:id', component: EditHabilidadesComponent},
   // Perfil routes
-  {path:'editacerca/:id',component: EditEducacionComponent}
+  {path:'editacerca/:id',component: EditAcercaComponent}
 
 ];
 

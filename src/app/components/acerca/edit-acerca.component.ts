@@ -17,7 +17,7 @@ export class EditAcercaComponent implements OnInit{
 
   ngOnInit(): void {
     const id = this.activatedRouter.snapshot.params['id'];
-    this.sPersona.detail(id).subscribe(
+    this.sPersona.traer().subscribe(
       data => {
         this.persona = data;
       }, err => {
