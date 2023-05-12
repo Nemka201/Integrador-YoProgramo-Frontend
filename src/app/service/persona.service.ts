@@ -11,10 +11,10 @@ import { environment } from 'src/environments/environment.prod';
 })
 export class PersonaService {
   //URL = 'http://localhost:8080/Persona/'
-  URL = 'https://backendnemka201.onrender.com/Persona/'
+  URL = 'https://backendnemka201.onrender.com/Persona'
   constructor(private httpClient:HttpClient) { }
   public lista(): Observable<persona[]> {
-    return this.httpClient.get<persona[]>(this.URL + 'lista');
+    return this.httpClient.get<persona[]>(this.URL + '/lista');
   }
 
   public detail(id: number): Observable<persona> {
