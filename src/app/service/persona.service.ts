@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { persona } from '../models/persona.model';
+import { environment } from 'src/environments/environment.prod';
 
 // Servicio de Persona
 
@@ -17,10 +18,10 @@ export class PersonaService {
   }
 
   public detail(id: number): Observable<persona> {
-    return this.httpClient.get<persona>(this.URL + `detail/${id}`);
+    return this.httpClient.get<persona>(this.URL + `/detail/${id}`);
   }
-  public traer(id: number): Observable<persona> {
-    return this.httpClient.get<persona>(this.URL + `personas/traer/perfil`);
+  public traer(): Observable<persona> {
+    return this.httpClient.get<persona>(this.URL + `/traer/perfil`);
   }
 
   /*public save(persona: persona): Observable<any> {
@@ -28,7 +29,7 @@ export class PersonaService {
   }*/
 
   public update(id: number, persona: persona): Observable<any> {
-    return this.httpClient.put<any>(this.URL + `update/${id}`, persona);
+    return this.httpClient.put<any>(this.URL + `editar/${id}`, persona);
   }
 
   /*public delete(id: number): Observable<any> {
