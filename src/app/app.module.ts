@@ -25,7 +25,7 @@ import { NewEducacionComponent } from './components/educacion/new-educacion.comp
 import { EditEducacionComponent } from './components/educacion/edit-educacion.component';
 import { EditHabilidadesComponent } from './components/habilidades/edit-habilidades.component';
 import { NewHabilidadesComponent } from './components/habilidades/new-habilidades.component';
-import { EditAcercaComponent } from './components/acerca/edit-acerca/edit-acerca.component';
+import { EditAcercaComponent } from './components/acerca/edit-acerca.component';
 
 
 

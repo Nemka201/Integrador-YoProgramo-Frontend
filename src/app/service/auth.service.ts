@@ -9,7 +9,8 @@ import { JwtDto } from '../models/jwt-dto';
   providedIn: 'root'
 })
 export class AuthService {
-  authURL = 'http://localhost:8080/auth'
+  //authURL = 'http://localhost:8080/auth'
+  authURL ='https://backendnemka201.onrender.com/auth'
 
   constructor(private HttpClient: HttpClient) { }
   public Nuevo(nuevoUsuario: NuevoUsuario): Observable<any>{

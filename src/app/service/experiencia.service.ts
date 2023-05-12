@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-//import { environment } from 'src/environments/environment';
+//import { environment } from '../environments/environment';
 import { Experiencia } from '../models/experiencia';
 
 // Servicio de Experiencia
@@ -11,10 +11,10 @@ import { Experiencia } from '../models/experiencia';
 })
 export class SExperienciaService {
 
-  URL = 'http://localhost:8080/experiencia/';
+  //URL = 'http://localhost:8080/experiencia/';
 
 
-  //URL = environment.URL + 'experiencia/';
+  URL = 'https://backendnemka201.onrender.com/' + 'experiencia/';
 
   constructor(private httpClient: HttpClient) { }
 

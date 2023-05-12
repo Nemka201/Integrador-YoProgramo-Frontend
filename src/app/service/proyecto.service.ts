@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Proyecto } from '../models/proyecto';
-//import { environment } from 'src/environments/environment';
+//import { environment } from '../environments/environment';
 
 // Servicio de proyecto
 
@@ -11,7 +11,7 @@ import { Proyecto } from '../models/proyecto';
 })
 export class SProyectoService {
 
-  URL = 'https://bkd-test.onrender.com/proyecto/';
+  URL = 'https://bhttps://backendnemka201.onrender.com/proyecto';
 
 
   //URL = environment.URL + 'proyecto/';

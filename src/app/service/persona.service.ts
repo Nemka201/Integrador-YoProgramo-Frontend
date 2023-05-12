@@ -9,7 +9,8 @@ import { persona } from '../models/persona.model';
   providedIn: 'root'
 })
 export class PersonaService {
-  URL = 'http://localhost:8080/Persona/'
+  //URL = 'http://localhost:8080/Persona/'
+  URL = 'https://backendnemka201.onrender.com/Persona/'
   constructor(private httpClient:HttpClient) { }
   public lista(): Observable<persona[]> {
     return this.httpClient.get<persona[]>(this.URL + 'lista');

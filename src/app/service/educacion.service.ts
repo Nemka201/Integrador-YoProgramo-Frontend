@@ -1,8 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-//import { environment } from 'src/environments/environment';
 import { Educacion } from '../models/educacion';
+//import { environment } from '../environments/environment.prod';
 
 // Servicio de educación
 
@@ -11,10 +11,10 @@ import { Educacion } from '../models/educacion';
 })
 export class SEducacionService {
 
-  URL = 'http://localhost:8080/educacion/';
+  //URL = 'http://localhost:8080/educacion/';
 
 
-  //URL = environment.URL + 'educacion/';
+  URL = 'https://backendnemka201.onrender.com/' + 'educacion/';
 
   constructor(private httpClient: HttpClient) { }
 

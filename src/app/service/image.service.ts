@@ -5,7 +5,7 @@
 //   providedIn: 'root'
 // })
 // export class SImageService {
-//   url: string = null;
+//   url: string = '';
 
 //   constructor(private storage: Storage) { }
 
@@ -28,5 +28,4 @@
 //       })
 //       .catch(error => console.log(error))
 //   }
-
 // }
