@@ -11,7 +11,7 @@ import { SImageService } from 'src/app/service/image.service';
   styleUrls: ['./edit-acerca.component.css']
 })
 export class EditAcercaComponent implements OnInit{
-  persona:persona = new persona("","","");
+  persona:persona = new persona("","","","");
 
   constructor(private sPersona: PersonaService, private activatedRouter: ActivatedRoute, private router: Router, public imageService: SImageService) { }
 
@@ -36,7 +36,7 @@ export class EditAcercaComponent implements OnInit{
         this.router.navigate(['']);
       }, err => {
         alert("Error al modificar el perfil");
-        this.router.navigate(['/edit-perfil/{{persona.id}}']);
+        this.router.navigate(['/editacerca/{{persona.id}}']);
       }
     )
   }

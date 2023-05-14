@@ -10,7 +10,7 @@ import { TokenService } from 'src/app/service/token.service';
 })
 export class AcercaComponent implements OnInit{
   isLogged: boolean = false;
-  persona:persona = new persona("","","");
+  persona:persona = new persona("","","","");
   constructor(public personaService: PersonaService, private tokenService: TokenService){}
   ngOnInit(): void{
     this.cargarPersona();
