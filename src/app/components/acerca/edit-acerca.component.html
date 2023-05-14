@@ -20,6 +20,11 @@
                                   <label for="apellido">Apellido/s</label>
                               </div>
                               <div class="form-outline mb-4">
+                                <input type="text" id="descripcion" class="form-control" [(ngModel)]="persona.descripcion"
+                                    name="descripcion" required>
+                                <label for="apellido">Apellido/s</label>
+                            </div>
+                              <div class="form-outline mb-4">
                                   <input type="file" id="img" class=" form-control" name="img"
                                       (change)="uploadImage($event)" accept="jpg jpeg png">
                                   <label for="img">Foto de perfil</label>
