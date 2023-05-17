@@ -1,0 +1,36 @@
+<div style="background: linear-gradient(#00358e, #536976, #96b6b6); padding: 0%; margin: 0%;">
+  <section>
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                    <button class="btn btn-light btn-lg mb-1" type="button" style="background-color: white;"
+                        onclick="window.location.href='/'">Volver</button>
+                    <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                        <div class="card-body px-5 pt-5 pb-5 text-center">
+                            <h3 class="mb-5">Nuevo Proyecto</h3>
+                            <form (ngSubmit)="onCreate()" novalidate #f="ngForm">
+                                <div class="form-outline mb-4">
+                                    <input type="text" id="nombreP" class="form-control" [(ngModel)]="nombreP"
+                                        name="nombreP" required>
+                                    <label for="nombreP">Nombre del proyecto</label>
+                                </div>
+                                <div class="form-outline mb-4">
+                                    <textarea type="text" id="descripcionP" class=" form-control"
+                                        [(ngModel)]="descripcionP" name="descripcionP" rows="7" cols="auto"
+                                        required></textarea>
+                                    <label for="descripcionP">Descripcion del proyecto</label>
+                                </div>
+                                <div class="form-outline mb-2">
+                                    <input type="text" id="linkP" class="form-control" [(ngModel)]="linkP" name="linkP"
+                                        required>
+                                    <label for="linkP">Link del proyecto</label>
+                                </div>
+                                <button class="btn btn-outline-secondary btn-lg px-5 mt-4 mb-2" type="submit">Agregar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

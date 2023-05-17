@@ -29,8 +29,8 @@ h3 {
   border-width:2px;
 }
 .text {
-  /* padding-top:2.5%; */
-  /* position: absolute; */
+  padding-top:2.5%;
+  position: absolute;
   max-height: 200px;
 }
 @media (max-width: 768px) {

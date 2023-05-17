@@ -1,13 +1,13 @@
 h2 {
-  font-size: 2em;
+  font-size: 2vw;
   color:#00358e;
 }
 h3{
-  font-size:1.4em;
+  font-size:1.4vw;
   color:#455a64;
 }
 h4{
-  font-size: 1em;
+  font-size: 1vw;
   color:#455a64;
 }
 .trabajo-card{
@@ -26,4 +26,29 @@ h4{
 .modifyExp{
   font-size: 1.5rem;
   cursor: pointer;
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  h2{
+    font-size: 1.6em;
+  }
+  h3{
+    font-size: 1.12em;
+  }
+  h4{
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h2{
+    font-size: 1.2em;
+  }
+  h3{
+    font-size: 0.84em;
+  }
+  h4{
+    font-size: 0.6em;
+  }
 }
